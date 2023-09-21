@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite junit="true" name="Failed suite [Surefire suite]" verbose="0">
+  <test junit="true" name="Surefire test(failed)">
+    <classes>
+      <class name="com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRekognitionIntegrationExampleTest">
+        <methods>
+          <include name="testExample"/>
+        </methods>
+      </class> <!-- com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRekognitionIntegrationExampleTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRendererExampleTest">
+        <methods>
+          <include name="testConsumerExample"/>
+          <include name="testDifferentResolution"/>
+          <include name="testExample"/>
+        </methods>
+      </class> <!-- com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRendererExampleTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.examples.KinesisVideoExampleTest">
+        <methods>
+          <include name="testExample"/>
+          <include name="testConsumerExample"/>
+        </methods>
+      </class> <!-- com.amazonaws.kinesisvideo.parser.examples.KinesisVideoExampleTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.utilities.consumer.MergedOutputPiperTest">
+        <methods>
+          <include name="testGStreamerVideoSink"/>
+        </methods>
+      </class> <!-- com.amazonaws.kinesisvideo.parser.utilities.consumer.MergedOutputPiperTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest">
+        <methods>
+          <include name="perfTest"/>
+        </methods>
+      </class> <!-- com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.examples.KinesisVideoGStreamerPiperExampleTest">
+        <methods>
+          <include name="testExample"/>
+        </methods>
+      </class> <!-- com.amazonaws.kinesisvideo.parser.examples.KinesisVideoGStreamerPiperExampleTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

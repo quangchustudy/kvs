@@ -1,0 +1,10 @@
+com.amazonaws.kinesisvideo.parser.ebml
+com.amazonaws.kinesisvideo.parser.examples
+com.amazonaws.kinesisvideo.parser.examples.lambda
+com.amazonaws.kinesisvideo.parser.kinesis
+com.amazonaws.kinesisvideo.parser.mkv
+com.amazonaws.kinesisvideo.parser.mkv.visitors
+com.amazonaws.kinesisvideo.parser.rekognition.pojo
+com.amazonaws.kinesisvideo.parser.rekognition.processor
+com.amazonaws.kinesisvideo.parser.utilities
+com.amazonaws.kinesisvideo.parser.utilities.consumer

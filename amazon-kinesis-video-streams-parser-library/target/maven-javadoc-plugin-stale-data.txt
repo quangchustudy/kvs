@@ -1,0 +1,121 @@
+@options
+@packages
+-classpath
+'/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-rekognition/1.12.162/aws-java-sdk-rekognition-1.12.162.jar:/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-core/1.12.162/aws-java-sdk-core-1.12.162.jar:/Users/quangchu/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/quangchu/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/quangchu/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar:/Users/quangchu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar:/Users/quangchu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/Users/quangchu/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.3/jackson-dataformat-cbor-2.12.3.jar:/Users/quangchu/.m2/repository/com/amazonaws/jmespath-java/1.12.162/jmespath-java-1.12.162.jar:/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-kinesisvideo/1.12.162/aws-java-sdk-kinesisvideo-1.12.162.jar:/Users/quangchu/.m2/repository/io/netty/netty-codec-http/4.1.72.Final/netty-codec-http-4.1.72.Final.jar:/Users/quangchu/.m2/repository/io/netty/netty-common/4.1.72.Final/netty-common-4.1.72.Final.jar:/Users/quangchu/.m2/repository/io/netty/netty-buffer/4.1.72.Final/netty-buffer-4.1.72.Final.jar:/Users/quangchu/.m2/repository/io/netty/netty-transport/4.1.72.Final/netty-transport-4.1.72.Final.jar:/Users/quangchu/.m2/repository/io/netty/netty-codec/4.1.72.Final/netty-codec-4.1.72.Final.jar:/Users/quangchu/.m2/repository/io/netty/netty-handler/4.1.72.Final/netty-handler-4.1.72.Final.jar:/Users/quangchu/.m2/repository/io/netty/netty-resolver/4.1.72.Final/netty-resolver-4.1.72.Final.jar:/Users/quangchu/.m2/repository/io/netty/netty-tcnative-classes/2.0.46.Final/netty-tcnative-classes-2.0.46.Final.jar:/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-kinesis/1.12.162/aws-java-sdk-kinesis-1.12.162.jar:/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.12.162/aws-java-sdk-dynamodb-1.12.162.jar:/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.12.162/aws-java-sdk-s3-1.12.162.jar:/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.12.162/aws-java-sdk-kms-1.12.162.jar:/Users/quangchu/.m2/repository/com/amazonaws/amazon-kinesis-video-streams-producer-sdk-java/1.12.0/amazon-kinesis-video-streams-producer-sdk-java-1.12.0.jar:/Users/quangchu/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar:/Users/quangchu/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/quangchu/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/quangchu/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/quangchu/.m2/repository/com/google/code/findbugs/annotations/3.0.1/annotations-3.0.1.jar:/Users/quangchu/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/quangchu/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/quangchu/.m2/repository/javax/measure/jsr-275/0.9.1/jsr-275-0.9.1.jar:/Users/quangchu/.m2/repository/com/google/inject/extensions/guice-multibindings/4.2.3/guice-multibindings-4.2.3.jar:/Users/quangchu/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/quangchu/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.jar:/Users/quangchu/.m2/repository/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar:/Users/quangchu/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.15/httpcore-nio-4.4.15.jar:/Users/quangchu/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/Users/quangchu/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/Users/quangchu/.m2/repository/com/amazonaws/amazon-kinesis-client/1.14.10/amazon-kinesis-client-1.14.10.jar:/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-cloudwatch/1.12.162/aws-java-sdk-cloudwatch-1.12.162.jar:/Users/quangchu/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/quangchu/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/quangchu/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/quangchu/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/quangchu/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/quangchu/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/quangchu/.m2/repository/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar:/Users/quangchu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/quangchu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar:/Users/quangchu/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.1/aws-lambda-java-core-1.2.1.jar:/Users/quangchu/.m2/repository/com/amazonaws/aws-lambda-java-events/2.2.9/aws-lambda-java-events-2.2.9.jar:/Users/quangchu/.m2/repository/joda-time/joda-time/2.6/joda-time-2.6.jar:/Users/quangchu/.m2/repository/org/jcodec/jcodec/0.2.3/jcodec-0.2.3.jar:/Users/quangchu/.m2/repository/org/jcodec/jcodec-javase/0.2.3/jcodec-javase-0.2.3.jar:/Users/quangchu/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:/Users/quangchu/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/quangchu/.m2/repository/com/amazonaws/aws-lambda-java-log4j2/1.5.1/aws-lambda-java-log4j2-1.5.1.jar:/Users/quangchu/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.2/log4j-slf4j-impl-2.17.2.jar:/Users/quangchu/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/generated-sources/delombok:/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Amazon Kinesis Video Streams Parser Library 1.2.5 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Amazon Kinesis Video Streams Parser Library 1.2.5 API'
+com.amazonaws.kinesisvideo.parser.kinesis
+com.amazonaws.kinesisvideo.parser.mkv
+com.amazonaws.kinesisvideo.parser.mkv.visitors
+com.amazonaws.kinesisvideo.parser.utilities
+com.amazonaws.kinesisvideo.parser.utilities.consumer
+com.amazonaws.kinesisvideo.parser.examples
+com.amazonaws.kinesisvideo.parser.examples.lambda
+com.amazonaws.kinesisvideo.parser.rekognition.processor
+com.amazonaws.kinesisvideo.parser.rekognition.pojo
+com.amazonaws.kinesisvideo.parser.ebml
+/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-rekognition/1.12.162/aws-java-sdk-rekognition-1.12.162.jar = 1695216932438
+/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-core/1.12.162/aws-java-sdk-core-1.12.162.jar = 1695216937794
+/Users/quangchu/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar = 1673567278436
+/Users/quangchu/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar = 1673567277245
+/Users/quangchu/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar = 1673567278749
+/Users/quangchu/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar = 1695216933089
+/Users/quangchu/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar = 1695216932229
+/Users/quangchu/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.3/jackson-dataformat-cbor-2.12.3.jar = 1680495123747
+/Users/quangchu/.m2/repository/com/amazonaws/jmespath-java/1.12.162/jmespath-java-1.12.162.jar = 1695216938040
+/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-kinesisvideo/1.12.162/aws-java-sdk-kinesisvideo-1.12.162.jar = 1695216936384
+/Users/quangchu/.m2/repository/io/netty/netty-codec-http/4.1.72.Final/netty-codec-http-4.1.72.Final.jar = 1695216933509
+/Users/quangchu/.m2/repository/io/netty/netty-common/4.1.72.Final/netty-common-4.1.72.Final.jar = 1695216934391
+/Users/quangchu/.m2/repository/io/netty/netty-buffer/4.1.72.Final/netty-buffer-4.1.72.Final.jar = 1695216934316
+/Users/quangchu/.m2/repository/io/netty/netty-transport/4.1.72.Final/netty-transport-4.1.72.Final.jar = 1695216934456
+/Users/quangchu/.m2/repository/io/netty/netty-codec/4.1.72.Final/netty-codec-4.1.72.Final.jar = 1695216934451
+/Users/quangchu/.m2/repository/io/netty/netty-handler/4.1.72.Final/netty-handler-4.1.72.Final.jar = 1695216934169
+/Users/quangchu/.m2/repository/io/netty/netty-resolver/4.1.72.Final/netty-resolver-4.1.72.Final.jar = 1695216934146
+/Users/quangchu/.m2/repository/io/netty/netty-tcnative-classes/2.0.46.Final/netty-tcnative-classes-2.0.46.Final.jar = 1695216934462
+/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-kinesis/1.12.162/aws-java-sdk-kinesis-1.12.162.jar = 1695216938051
+/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.12.162/aws-java-sdk-dynamodb-1.12.162.jar = 1695216938125
+/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.12.162/aws-java-sdk-s3-1.12.162.jar = 1695216935432
+/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.12.162/aws-java-sdk-kms-1.12.162.jar = 1695216935022
+/Users/quangchu/.m2/repository/com/amazonaws/amazon-kinesis-video-streams-producer-sdk-java/1.12.0/amazon-kinesis-video-streams-producer-sdk-java-1.12.0.jar = 1695216937681
+/Users/quangchu/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar = 1695005123902
+/Users/quangchu/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar = 1673567156338
+/Users/quangchu/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar = 1673567156369
+/Users/quangchu/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar = 1673567275620
+/Users/quangchu/.m2/repository/com/google/code/findbugs/annotations/3.0.1/annotations-3.0.1.jar = 1695005124567
+/Users/quangchu/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar = 1695005124516
+/Users/quangchu/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar = 1695005125145
+/Users/quangchu/.m2/repository/javax/measure/jsr-275/0.9.1/jsr-275-0.9.1.jar = 1695005124881
+/Users/quangchu/.m2/repository/com/google/inject/extensions/guice-multibindings/4.2.3/guice-multibindings-4.2.3.jar = 1695005124808
+/Users/quangchu/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar = 1676479724588
+/Users/quangchu/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.jar = 1695005125105
+/Users/quangchu/.m2/repository/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar = 1695005126625
+/Users/quangchu/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.15/httpcore-nio-4.4.15.jar = 1695005126734
+/Users/quangchu/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar = 1695005130561
+/Users/quangchu/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar = 1695005127275
+/Users/quangchu/.m2/repository/com/amazonaws/amazon-kinesis-client/1.14.10/amazon-kinesis-client-1.14.10.jar = 1695216936697
+/Users/quangchu/.m2/repository/com/amazonaws/aws-java-sdk-cloudwatch/1.12.162/aws-java-sdk-cloudwatch-1.12.162.jar = 1695216937736
+/Users/quangchu/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar = 1695216939198
+/Users/quangchu/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar = 1673567275175
+/Users/quangchu/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1673567275443
+/Users/quangchu/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar = 1680503730539
+/Users/quangchu/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar = 1695216938124
+/Users/quangchu/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar = 1673567275878
+/Users/quangchu/.m2/repository/com/google/protobuf/protobuf-java/3.19.6/protobuf-java-3.19.6.jar = 1695216938748
+/Users/quangchu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1673567293356
+/Users/quangchu/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.0/jackson-core-2.13.0.jar = 1695216938333
+/Users/quangchu/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.1/aws-lambda-java-core-1.2.1.jar = 1676475021192
+/Users/quangchu/.m2/repository/com/amazonaws/aws-lambda-java-events/2.2.9/aws-lambda-java-events-2.2.9.jar = 1695216938449
+/Users/quangchu/.m2/repository/joda-time/joda-time/2.6/joda-time-2.6.jar = 1676479086204
+/Users/quangchu/.m2/repository/org/jcodec/jcodec/0.2.3/jcodec-0.2.3.jar = 1695216939487
+/Users/quangchu/.m2/repository/org/jcodec/jcodec-javase/0.2.3/jcodec-javase-0.2.3.jar = 1695216938835
+/Users/quangchu/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar = 1695216939439
+/Users/quangchu/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar = 1673567383635
+/Users/quangchu/.m2/repository/com/amazonaws/aws-lambda-java-log4j2/1.5.1/aws-lambda-java-log4j2-1.5.1.jar = 1695216939089
+/Users/quangchu/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.2/log4j-slf4j-impl-2.17.2.jar = 1695216939484
+/Users/quangchu/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar = 1673567300405
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/generated-sources/delombok = 1695262997608
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/generated-sources/annotations = 1695262999322
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/constant-values.html = 1695263014831
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/member-search-index.zip = 1695263015015
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/overview-tree.html = 1695263014977
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/index.html = 1695263015031
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/package-search-index.js = 1695263015010
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/jquery-ui.overrides.css = 1695263015044
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/package-search-index.zip = 1695263015012
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/type-search-index.zip = 1695263015013
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/serialized-form.html = 1695263014838
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/index-all.html = 1695263015019
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/allpackages-index.html = 1695263015024
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/deprecated-list.html = 1695263015026
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/member-search-index.js = 1695263015014
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/allclasses.html = 1695263015028
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/script.js = 1695263015034
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/stylesheet.css = 1695263015033
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/overview-summary.html = 1695263015031
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/help-doc.html = 1695263015032
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/element-list = 1695263014807
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/allclasses-index.html = 1695263015023
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/type-search-index.js = 1695263015012
+/Users/quangchu/IdeaProjects/kinesis-video-stream/amazon-kinesis-video-streams-parser-library/target/apidocs/search.js = 1695263015034

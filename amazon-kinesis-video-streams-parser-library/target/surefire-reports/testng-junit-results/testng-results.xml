@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="67" passed="58" failed="0" skipped="9">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-21T02:23:21Z" name="Surefire suite" finished-at="2023-09-21T02:23:32Z" duration-ms="11030">
+    <groups>
+    </groups>
+    <test started-at="2023-09-21T02:23:21Z" name="Surefire test" finished-at="2023-09-21T02:23:32Z" duration-ms="11030">
+      <class name="com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest">
+        <test-method signature="testMasterElementOneChildElementSizeBasedTermination()[pri:0, instance:testMasterElementOneChildElementSizeBasedTermination(com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest)]" started-at="2023-09-21T09:23:21Z" name="testMasterElementOneChildElementSizeBasedTermination" finished-at="2023-09-21T09:23:21Z" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMasterElementOneChildElementSizeBasedTermination -->
+        <test-method signature="testWithMultipleMasterElementsAndChildElements()[pri:0, instance:testWithMultipleMasterElementsAndChildElements(com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest)]" started-at="2023-09-21T09:23:21Z" name="testWithMultipleMasterElementsAndChildElements" finished-at="2023-09-21T09:23:21Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithMultipleMasterElementsAndChildElements -->
+        <test-method signature="testEBMLElementInThreeSteps()[pri:0, instance:testEBMLElementInThreeSteps(com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest)]" started-at="2023-09-21T09:23:21Z" name="testEBMLElementInThreeSteps" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEBMLElementInThreeSteps -->
+        <test-method signature="testMasterElementWithUnknownLengthAndEndOfStream()[pri:0, instance:testMasterElementWithUnknownLengthAndEndOfStream(com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest)]" started-at="2023-09-21T09:23:21Z" name="testMasterElementWithUnknownLengthAndEndOfStream" finished-at="2023-09-21T09:23:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMasterElementWithUnknownLengthAndEndOfStream -->
+        <test-method signature="testMasterElementOneChildElementUnknownLength()[pri:0, instance:testMasterElementOneChildElementUnknownLength(com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest)]" started-at="2023-09-21T09:23:21Z" name="testMasterElementOneChildElementUnknownLength" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMasterElementOneChildElementUnknownLength -->
+        <test-method signature="testEBMLElementInOneStep()[pri:0, instance:testEBMLElementInOneStep(com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest)]" started-at="2023-09-21T09:23:21Z" name="testEBMLElementInOneStep" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEBMLElementInOneStep -->
+        <test-method signature="testMasterElementOneChildElementSizeBasedTerminationMultipleChunks()[pri:0, instance:testMasterElementOneChildElementSizeBasedTerminationMultipleChunks(com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest)]" started-at="2023-09-21T09:23:21Z" name="testMasterElementOneChildElementSizeBasedTerminationMultipleChunks" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMasterElementOneChildElementSizeBasedTerminationMultipleChunks -->
+        <test-method signature="testMasterElementOneChildElementUnknownLengthMultipleChunks()[pri:0, instance:testMasterElementOneChildElementUnknownLengthMultipleChunks(com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest)]" started-at="2023-09-21T09:23:21Z" name="testMasterElementOneChildElementUnknownLengthMultipleChunks" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMasterElementOneChildElementUnknownLengthMultipleChunks -->
+        <test-method signature="testInputStreamReturningEoF()[pri:0, instance:testInputStreamReturningEoF(com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest)]" started-at="2023-09-21T09:23:21Z" name="testInputStreamReturningEoF" finished-at="2023-09-21T09:23:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputStreamReturningEoF -->
+        <test-method signature="unknownElementsTest()[pri:0, instance:unknownElementsTest(com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest)]" started-at="2023-09-21T09:23:21Z" name="unknownElementsTest" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unknownElementsTest -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.ebml.EBMLParserTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.utilities.FrameRendererTest">
+        <test-method signature="frameCountTest()[pri:0, instance:frameCountTest(com.amazonaws.kinesisvideo.parser.utilities.FrameRendererTest)]" started-at="2023-09-21T09:23:27Z" name="frameCountTest" finished-at="2023-09-21T09:23:30Z" duration-ms="3167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frameCountTest -->
+        <test-method signature="frameCountTest2()[pri:0, instance:frameCountTest2(com.amazonaws.kinesisvideo.parser.utilities.FrameRendererTest)]" started-at="2023-09-21T09:23:30Z" name="frameCountTest2" finished-at="2023-09-21T09:23:32Z" duration-ms="1587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frameCountTest2 -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.utilities.FrameRendererTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.examples.KinesisVideoGStreamerPiperExampleTest">
+        <test-method signature="testExample()[pri:0, instance:testExample(com.amazonaws.kinesisvideo.parser.examples.KinesisVideoGStreamerPiperExampleTest)]" started-at="2023-09-21T09:23:27Z" name="testExample" finished-at="2023-09-21T09:23:27Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.examples.KinesisVideoGStreamerPiperExampleTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.examples.KinesisVideoExampleTest">
+        <test-method signature="testExample()[pri:0, instance:testExample(com.amazonaws.kinesisvideo.parser.examples.KinesisVideoExampleTest)]" started-at="2023-09-21T09:23:21Z" name="testExample" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample -->
+        <test-method signature="testConsumerExample()[pri:0, instance:testConsumerExample(com.amazonaws.kinesisvideo.parser.examples.KinesisVideoExampleTest)]" started-at="2023-09-21T09:23:21Z" name="testConsumerExample" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConsumerExample -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.examples.KinesisVideoExampleTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.utilities.H264FrameDecoderTest">
+        <test-method signature="frameDecodeCountTest()[pri:0, instance:frameDecodeCountTest(com.amazonaws.kinesisvideo.parser.utilities.H264FrameDecoderTest)]" started-at="2023-09-21T09:23:21Z" name="frameDecodeCountTest" finished-at="2023-09-21T09:23:24Z" duration-ms="2508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frameDecodeCountTest -->
+        <test-method signature="frameDecodeForDifferentResolution()[pri:0, instance:frameDecodeForDifferentResolution(com.amazonaws.kinesisvideo.parser.utilities.H264FrameDecoderTest)]" started-at="2023-09-21T09:23:24Z" name="frameDecodeForDifferentResolution" finished-at="2023-09-21T09:23:27Z" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frameDecodeForDifferentResolution -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.utilities.H264FrameDecoderTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest">
+        <test-method signature="stopWithTimeCodeEqual()[pri:0, instance:stopWithTimeCodeEqual(com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest)]" started-at="2023-09-21T09:23:32Z" name="stopWithTimeCodeEqual" finished-at="2023-09-21T09:23:32Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopWithTimeCodeEqual -->
+        <test-method signature="basicTest()[pri:0, instance:basicTest(com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest)]" started-at="2023-09-21T09:23:32Z" name="basicTest" finished-at="2023-09-21T09:23:32Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicTest -->
+        <test-method signature="mergeTracksAndEBML()[pri:0, instance:mergeTracksAndEBML(com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest)]" started-at="2023-09-21T09:23:32Z" name="mergeTracksAndEBML" finished-at="2023-09-21T09:23:32Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeTracksAndEBML -->
+        <test-method signature="mergeWithTimeCodeBackwards()[pri:0, instance:mergeWithTimeCodeBackwards(com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest)]" started-at="2023-09-21T09:23:32Z" name="mergeWithTimeCodeBackwards" finished-at="2023-09-21T09:23:32Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeWithTimeCodeBackwards -->
+        <test-method signature="mergeTracks()[pri:0, instance:mergeTracks(com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest)]" started-at="2023-09-21T09:23:32Z" name="mergeTracks" finished-at="2023-09-21T09:23:32Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeTracks -->
+        <test-method signature="packClustersWithSparseData()[pri:0, instance:packClustersWithSparseData(com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest)]" started-at="2023-09-21T09:23:32Z" name="packClustersWithSparseData" finished-at="2023-09-21T09:23:32Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packClustersWithSparseData -->
+        <test-method signature="perfTest()[pri:0, instance:perfTest(com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest)]" started-at="2023-09-21T09:23:32Z" name="perfTest" finished-at="2023-09-21T09:23:32Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- perfTest -->
+        <test-method signature="mergeEBMLHeaders()[pri:0, instance:mergeEBMLHeaders(com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest)]" started-at="2023-09-21T09:23:32Z" name="mergeEBMLHeaders" finished-at="2023-09-21T09:23:32Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeEBMLHeaders -->
+        <test-method signature="mergeWithStopAfterFirstSegment()[pri:0, instance:mergeWithStopAfterFirstSegment(com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest)]" started-at="2023-09-21T09:23:32Z" name="mergeWithStopAfterFirstSegment" finished-at="2023-09-21T09:23:32Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeWithStopAfterFirstSegment -->
+        <test-method signature="stopWithTimeCodeBackwards()[pri:0, instance:stopWithTimeCodeBackwards(com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest)]" started-at="2023-09-21T09:23:32Z" name="stopWithTimeCodeBackwards" finished-at="2023-09-21T09:23:32Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopWithTimeCodeBackwards -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.utilities.OutputSegmentMergerTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.mkv.visitors.CopyVisitorTest">
+        <test-method signature="testTwoCopiesAtOnceGetMediaOutput()[pri:0, instance:testTwoCopiesAtOnceGetMediaOutput(com.amazonaws.kinesisvideo.parser.mkv.visitors.CopyVisitorTest)]" started-at="2023-09-21T09:23:27Z" name="testTwoCopiesAtOnceGetMediaOutput" finished-at="2023-09-21T09:23:27Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoCopiesAtOnceGetMediaOutput -->
+        <test-method signature="testTwoCopiesAtOnce()[pri:0, instance:testTwoCopiesAtOnce(com.amazonaws.kinesisvideo.parser.mkv.visitors.CopyVisitorTest)]" started-at="2023-09-21T09:23:27Z" name="testTwoCopiesAtOnce" finished-at="2023-09-21T09:23:27Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoCopiesAtOnce -->
+        <test-method signature="testOneCopy()[pri:0, instance:testOneCopy(com.amazonaws.kinesisvideo.parser.mkv.visitors.CopyVisitorTest)]" started-at="2023-09-21T09:23:27Z" name="testOneCopy" finished-at="2023-09-21T09:23:27Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneCopy -->
+        <test-method signature="testOneCopyGetMediaOutput()[pri:0, instance:testOneCopyGetMediaOutput(com.amazonaws.kinesisvideo.parser.mkv.visitors.CopyVisitorTest)]" started-at="2023-09-21T09:23:27Z" name="testOneCopyGetMediaOutput" finished-at="2023-09-21T09:23:27Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneCopyGetMediaOutput -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.mkv.visitors.CopyVisitorTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.utilities.consumer.MergedOutputPiperTest">
+        <test-method signature="testGStreamerFileSinkWithFactory()[pri:0, instance:testGStreamerFileSinkWithFactory(com.amazonaws.kinesisvideo.parser.utilities.consumer.MergedOutputPiperTest)]" started-at="2023-09-21T09:23:27Z" name="testGStreamerFileSinkWithFactory" finished-at="2023-09-21T09:23:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGStreamerFileSinkWithFactory -->
+        <test-method signature="testBasic()[pri:0, instance:testBasic(com.amazonaws.kinesisvideo.parser.utilities.consumer.MergedOutputPiperTest)]" started-at="2023-09-21T09:23:27Z" name="testBasic" finished-at="2023-09-21T09:23:27Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasic -->
+        <test-method signature="testBasicNonIncreasingTimecode()[pri:0, instance:testBasicNonIncreasingTimecode(com.amazonaws.kinesisvideo.parser.utilities.consumer.MergedOutputPiperTest)]" started-at="2023-09-21T09:23:27Z" name="testBasicNonIncreasingTimecode" finished-at="2023-09-21T09:23:27Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicNonIncreasingTimecode -->
+        <test-method signature="testGStreamerFileSink()[pri:0, instance:testGStreamerFileSink(com.amazonaws.kinesisvideo.parser.utilities.consumer.MergedOutputPiperTest)]" started-at="2023-09-21T09:23:27Z" name="testGStreamerFileSink" finished-at="2023-09-21T09:23:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGStreamerFileSink -->
+        <test-method signature="testGStreamerVideoSink()[pri:0, instance:testGStreamerVideoSink(com.amazonaws.kinesisvideo.parser.utilities.consumer.MergedOutputPiperTest)]" started-at="2023-09-21T09:23:27Z" name="testGStreamerVideoSink" finished-at="2023-09-21T09:23:27Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGStreamerVideoSink -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.utilities.consumer.MergedOutputPiperTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.mkv.EBMLParserForMkvTypeInfosTest">
+        <test-method signature="testClustersMkv()[pri:0, instance:testClustersMkv(com.amazonaws.kinesisvideo.parser.mkv.EBMLParserForMkvTypeInfosTest)]" started-at="2023-09-21T09:23:32Z" name="testClustersMkv" finished-at="2023-09-21T09:23:32Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClustersMkv -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.mkv.EBMLParserForMkvTypeInfosTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.mkv.ElementSizeAndOffsetVisitorTest">
+        <test-method signature="basicTest()[pri:0, instance:basicTest(com.amazonaws.kinesisvideo.parser.mkv.ElementSizeAndOffsetVisitorTest)]" started-at="2023-09-21T09:23:32Z" name="basicTest" finished-at="2023-09-21T09:23:32Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicTest -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.mkv.ElementSizeAndOffsetVisitorTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRekognitionIntegrationExampleTest">
+        <test-method signature="testExample()[pri:0, instance:testExample(com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRekognitionIntegrationExampleTest)]" started-at="2023-09-21T09:23:21Z" name="testExample" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRekognitionIntegrationExampleTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRendererExampleTest">
+        <test-method signature="testConsumerExample()[pri:0, instance:testConsumerExample(com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRendererExampleTest)]" started-at="2023-09-21T09:23:21Z" name="testConsumerExample" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConsumerExample -->
+        <test-method signature="testDifferentResolution()[pri:0, instance:testDifferentResolution(com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRendererExampleTest)]" started-at="2023-09-21T09:23:21Z" name="testDifferentResolution" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDifferentResolution -->
+        <test-method signature="testExample()[pri:0, instance:testExample(com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRendererExampleTest)]" started-at="2023-09-21T09:23:21Z" name="testExample" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.examples.KinesisVideoRendererExampleTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.mkv.StreamingMkvReaderTest">
+        <test-method signature="testGetDataOutputMkvTagNameWithPathFileWrite()[pri:0, instance:testGetDataOutputMkvTagNameWithPathFileWrite(com.amazonaws.kinesisvideo.parser.mkv.StreamingMkvReaderTest)]" started-at="2023-09-21T09:23:32Z" name="testGetDataOutputMkvTagNameWithPathFileWrite" finished-at="2023-09-21T09:23:32Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDataOutputMkvTagNameWithPathFileWrite -->
+        <test-method signature="testClustersMkvAllElementsWithoutPath()[pri:0, instance:testClustersMkvAllElementsWithoutPath(com.amazonaws.kinesisvideo.parser.mkv.StreamingMkvReaderTest)]" started-at="2023-09-21T09:23:32Z" name="testClustersMkvAllElementsWithoutPath" finished-at="2023-09-21T09:23:32Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClustersMkvAllElementsWithoutPath -->
+        <test-method signature="testGetDataOutputMkvAllElementsWithPath()[pri:0, instance:testGetDataOutputMkvAllElementsWithPath(com.amazonaws.kinesisvideo.parser.mkv.StreamingMkvReaderTest)]" started-at="2023-09-21T09:23:32Z" name="testGetDataOutputMkvAllElementsWithPath" finished-at="2023-09-21T09:23:32Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDataOutputMkvAllElementsWithPath -->
+        <test-method signature="testClustersMkvIdAndOffset()[pri:0, instance:testClustersMkvIdAndOffset(com.amazonaws.kinesisvideo.parser.mkv.StreamingMkvReaderTest)]" started-at="2023-09-21T09:23:32Z" name="testClustersMkvIdAndOffset" finished-at="2023-09-21T09:23:32Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClustersMkvIdAndOffset -->
+        <test-method signature="testClustersMkvAllElementsWithPath()[pri:0, instance:testClustersMkvAllElementsWithPath(com.amazonaws.kinesisvideo.parser.mkv.StreamingMkvReaderTest)]" started-at="2023-09-21T09:23:32Z" name="testClustersMkvAllElementsWithPath" finished-at="2023-09-21T09:23:32Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClustersMkvAllElementsWithPath -->
+        <test-method signature="testClustersMkvSimpleBlockWithPath()[pri:0, instance:testClustersMkvSimpleBlockWithPath(com.amazonaws.kinesisvideo.parser.mkv.StreamingMkvReaderTest)]" started-at="2023-09-21T09:23:32Z" name="testClustersMkvSimpleBlockWithPath" finished-at="2023-09-21T09:23:32Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClustersMkvSimpleBlockWithPath -->
+        <test-method signature="testGetDataOutputMkvTagNameWithPath()[pri:0, instance:testGetDataOutputMkvTagNameWithPath(com.amazonaws.kinesisvideo.parser.mkv.StreamingMkvReaderTest)]" started-at="2023-09-21T09:23:32Z" name="testGetDataOutputMkvTagNameWithPath" finished-at="2023-09-21T09:23:32Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDataOutputMkvTagNameWithPath -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.mkv.StreamingMkvReaderTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.utilities.FragmentMetadataVisitorTest">
+        <test-method signature="basicTest()[pri:0, instance:basicTest(com.amazonaws.kinesisvideo.parser.utilities.FragmentMetadataVisitorTest)]" started-at="2023-09-21T09:23:32Z" name="basicTest" finished-at="2023-09-21T09:23:32Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicTest -->
+        <test-method signature="withOutputSegmentMergerTest()[pri:0, instance:withOutputSegmentMergerTest(com.amazonaws.kinesisvideo.parser.utilities.FragmentMetadataVisitorTest)]" started-at="2023-09-21T09:23:32Z" name="withOutputSegmentMergerTest" finished-at="2023-09-21T09:23:32Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withOutputSegmentMergerTest -->
+        <test-method signature="testFragmentMetadata_NoFragementMetadata_withMkv()[pri:0, instance:testFragmentMetadata_NoFragementMetadata_withMkv(com.amazonaws.kinesisvideo.parser.utilities.FragmentMetadataVisitorTest)]" started-at="2023-09-21T09:23:32Z" name="testFragmentMetadata_NoFragementMetadata_withMkv" finished-at="2023-09-21T09:23:32Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFragmentMetadata_NoFragementMetadata_withMkv -->
+        <test-method signature="testFragmentNumbers_NoClusterData()[pri:0, instance:testFragmentNumbers_NoClusterData(com.amazonaws.kinesisvideo.parser.utilities.FragmentMetadataVisitorTest)]" started-at="2023-09-21T09:23:32Z" name="testFragmentNumbers_NoClusterData" finished-at="2023-09-21T09:23:32Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFragmentNumbers_NoClusterData -->
+        <test-method signature="testMkvTags_NoCluster()[pri:0, instance:testMkvTags_NoCluster(com.amazonaws.kinesisvideo.parser.utilities.FragmentMetadataVisitorTest)]" started-at="2023-09-21T09:23:32Z" name="testMkvTags_NoCluster" finished-at="2023-09-21T09:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMkvTags_NoCluster -->
+        <test-method signature="testMkvTags_MixedCluster()[pri:0, instance:testMkvTags_MixedCluster(com.amazonaws.kinesisvideo.parser.utilities.FragmentMetadataVisitorTest)]" started-at="2023-09-21T09:23:32Z" name="testMkvTags_MixedCluster" finished-at="2023-09-21T09:23:32Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMkvTags_MixedCluster -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.utilities.FragmentMetadataVisitorTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.ebml.EBMLUtilsTest">
+        <test-method signature="readUnsignedIntegerSevenBytesOrLessTwoBytes()[pri:0, instance:readUnsignedIntegerSevenBytesOrLessTwoBytes(com.amazonaws.kinesisvideo.parser.ebml.EBMLUtilsTest)]" started-at="2023-09-21T09:23:21Z" name="readUnsignedIntegerSevenBytesOrLessTwoBytes" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readUnsignedIntegerSevenBytesOrLessTwoBytes -->
+        <test-method signature="readUnsignedInteger()[pri:0, instance:readUnsignedInteger(com.amazonaws.kinesisvideo.parser.ebml.EBMLUtilsTest)]" started-at="2023-09-21T09:23:21Z" name="readUnsignedInteger" finished-at="2023-09-21T09:23:21Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readUnsignedInteger -->
+        <test-method signature="readPositiveSignedInteger1byte()[pri:0, instance:readPositiveSignedInteger1byte(com.amazonaws.kinesisvideo.parser.ebml.EBMLUtilsTest)]" started-at="2023-09-21T09:23:21Z" name="readPositiveSignedInteger1byte" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readPositiveSignedInteger1byte -->
+        <test-method signature="readSignedInteger2bytes()[pri:0, instance:readSignedInteger2bytes(com.amazonaws.kinesisvideo.parser.ebml.EBMLUtilsTest)]" started-at="2023-09-21T09:23:21Z" name="readSignedInteger2bytes" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readSignedInteger2bytes -->
+        <test-method signature="readSignedInteger7bytes()[pri:0, instance:readSignedInteger7bytes(com.amazonaws.kinesisvideo.parser.ebml.EBMLUtilsTest)]" started-at="2023-09-21T09:23:21Z" name="readSignedInteger7bytes" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readSignedInteger7bytes -->
+        <test-method signature="readSignedInteger1byte()[pri:0, instance:readSignedInteger1byte(com.amazonaws.kinesisvideo.parser.ebml.EBMLUtilsTest)]" started-at="2023-09-21T09:23:21Z" name="readSignedInteger1byte" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readSignedInteger1byte -->
+        <test-method signature="readSignedInteger8bytes()[pri:0, instance:readSignedInteger8bytes(com.amazonaws.kinesisvideo.parser.ebml.EBMLUtilsTest)]" started-at="2023-09-21T09:23:21Z" name="readSignedInteger8bytes" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readSignedInteger8bytes -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.ebml.EBMLUtilsTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.mkv.MkvValueTest">
+        <test-method signature="integerTest()[pri:0, instance:integerTest(com.amazonaws.kinesisvideo.parser.mkv.MkvValueTest)]" started-at="2023-09-21T09:23:21Z" name="integerTest" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integerTest -->
+        <test-method signature="byteBufferTest()[pri:0, instance:byteBufferTest(com.amazonaws.kinesisvideo.parser.mkv.MkvValueTest)]" started-at="2023-09-21T09:23:21Z" name="byteBufferTest" finished-at="2023-09-21T09:23:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byteBufferTest -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.mkv.MkvValueTest -->
+      <class name="com.amazonaws.kinesisvideo.parser.utilities.FrameVisitorTest">
+        <test-method signature="testForAudioFrames()[pri:0, instance:testForAudioFrames(com.amazonaws.kinesisvideo.parser.utilities.FrameVisitorTest)]" started-at="2023-09-21T09:23:21Z" name="testForAudioFrames" finished-at="2023-09-21T09:23:21Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAudioFrames -->
+        <test-method signature="testWithMkvVideo()[pri:0, instance:testWithMkvVideo(com.amazonaws.kinesisvideo.parser.utilities.FrameVisitorTest)]" started-at="2023-09-21T09:23:21Z" name="testWithMkvVideo" finished-at="2023-09-21T09:23:21Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithMkvVideo -->
+        <test-method signature="testForVideoFrames()[pri:0, instance:testForVideoFrames(com.amazonaws.kinesisvideo.parser.utilities.FrameVisitorTest)]" started-at="2023-09-21T09:23:21Z" name="testForVideoFrames" finished-at="2023-09-21T09:23:21Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForVideoFrames -->
+      </class> <!-- com.amazonaws.kinesisvideo.parser.utilities.FrameVisitorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
