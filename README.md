@@ -1,15 +1,15 @@
-#RUNBOOK
+# RUNBOOK
 
-##I. Install KVS SDK
+## I. Install KVS SDK
 [insall link - macOS](/lab01/README.md)
 [sdk link](/amazon-kinesis-video-streams-producer-sdk-cpp/README.md)
 
 Note: For MacOS - pls follow the ```install link - macOS``` above
 
-##II. Architect
+## II. Architect
 [arch drawio](/rekognition-streaming-video-events/arch/)
 
-##III. CloudFormation deploy note
+## III. CloudFormation deploy note
 1. Deploy on ```us-east-1```. Because there a python layer in the CF script that need to download from us-east-1 s3. If we use another region then we will face an ```error``` that ```access denied```
 2. Create ```KVS``` manually on AWS management console and get the ```arn``` for the next steps
 3. ```start_stream_processor.py``` and ```cr_stream_processor.py``` for individual tasks are ```create rekognition processor stream``` and ```start rekognition processor stream```. So we should use it for understanding how to code.
@@ -28,7 +28,7 @@ Run the file
 python3 sve_profile_report.py
 ```
 
-##III. Code changes:
+## IV. Code changes:
 Using the CF output values to hardcode the ```sve_simulator.py```
 ```python
 sns_topic_arn = 
